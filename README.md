@@ -1,8 +1,5 @@
 a simple script that wil spawn shells in your server by coords out of the config
 
-https://github.com/GR-Scripts/GR-ShellSpawner
-
-
 
 how to use
 
