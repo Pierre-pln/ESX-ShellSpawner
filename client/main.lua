@@ -1,6 +1,7 @@
 local spawnedShells = {}
 
-RegisterNetEvent("gr-shellspawner:spawnShells", function(shells)
+RegisterNetEvent("esx-shellspawner:spawnShells")
+AddEventHandler("esx-shellspawner:spawnShells", function(shells)
     for _, shell in ipairs(shells) do
         local model = GetHashKey(shell.model)
         RequestModel(model)
@@ -17,7 +18,8 @@ RegisterNetEvent("gr-shellspawner:spawnShells", function(shells)
     end
 end)
 
-RegisterNetEvent("gr-shellspawner:clearShells", function()
+RegisterNetEvent("esx-shellspawner:clearShells")
+AddEventHandler("esx-shellspawner:clearShells", function()
     for _, obj in ipairs(spawnedShells) do
         if DoesEntityExist(obj) then
             DeleteObject(obj)
