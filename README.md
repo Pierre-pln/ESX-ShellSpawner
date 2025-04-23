@@ -1,8 +1,9 @@
-a simple script that wil spawn shells in your server by coords out of the config
+This is a fork from GR-ShellSpawner that works for ESX:
 
+This is a simple script that will spawn shells in your server by coords out of the config
 
-how to use
+How to use:
 
-- place the name of the shell in the config
-- chance the location vector3 of the shell
-- restart the script and it wil spawn
+- Add the name of the shell in the config
+- Replace with the vector3 of the shell
+- Restart the script and it will spawn the shell
